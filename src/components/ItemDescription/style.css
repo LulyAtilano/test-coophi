@@ -1,0 +1,51 @@
+.item-description {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2, .title-description-item,.input-container,
+.buttons-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+h3 {
+    flex-grow: 2;
+    color: blue;
+}
+
+.title-description-item {
+    flex-grow: 3;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input {
+    width: 99%;
+    margin-top: 5px;
+}
+
+#input-description {
+    height: 30vh;
+}
+
+.buttons-container {
+    flex-grow: 1;
+    padding: 2em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 40%;
+    border: none;
+}
