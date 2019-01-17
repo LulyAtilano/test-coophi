@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ItemList from './components/ItemList/ItemList';
+import ItemDescription from './components/ItemDescription/ItemDescription';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
             <ItemList/>
           </section>
           <section className="info-items">
-            <p> Aqui va la descripción </p>
+            <ItemDescription/>
           </section>
         </body>
       </div>
