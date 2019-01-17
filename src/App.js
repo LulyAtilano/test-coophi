@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ItemList from './components/ItemList/ItemList';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
         </header>
         <body className="App-body">
           <section className="list-items">
-            <p> Aqui van el listado</p>
+            <ItemList/>
           </section>
           <section className="info-items">
             <p> Aqui va la descripción </p>
