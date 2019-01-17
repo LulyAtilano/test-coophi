@@ -1,0 +1,24 @@
+.itemList-container {
+    width: 100%;
+}
+
+.container-items-names {
+    height: 70vh;
+    width: 100%;
+}
+
+.btn-add {
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-radius: 5px;
+    background-color: azure;
+    padding: .2em;
+    margin: 1em 0;
+}
