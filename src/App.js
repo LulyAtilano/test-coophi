@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import ItemList from './components/ItemList/ItemList';
 import ItemDescription from './components/ItemDescription/ItemDescription';
+//import { addItem, showItem, editItem, VisibilityFilter } from './store/actions';
+
 import './App.css';
 
 class App extends Component {
+
+ 
   render() {
     return (
       <div className="App">
