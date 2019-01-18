@@ -18,7 +18,7 @@ class ItemDescription extends Component {
                 </div>
                 <div className="buttons-container">
                     <button> Cancelar </button>
-                    <button> Crear </button>
+                    <button type="submit"> Crear </button>
                 </div>
             </div>
         );
