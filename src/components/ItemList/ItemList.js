@@ -25,3 +25,7 @@ class ItemList extends Component {
 };
 
 export default ItemList;
+
+/*
+    <Item title="Elemento 1" />
+*/
